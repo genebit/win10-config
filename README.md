@@ -13,7 +13,7 @@ The script installs the following software applications:
 | Gaming Platforms        | Valve Steam, Epic Games Launcher                     |
 | Music Streaming         | Spotify                                              |
 | Graphic Design Software | KDE Krita, Figma                                     |
-| Version Control Software| Git, GitHub Desktop                                  |
+| Version Control Software| Git, GitHub Desktop, Docker                          |
 | Parameters              | This script does not accept any parameters.          |
 
 ### **How to Run** 📌
