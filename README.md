@@ -1,4 +1,4 @@
-### **Windows 10 Base Installer** 
+## **Windows 10 Base Installer** 
 Personalized Windows 10 configuration and installation for newly formatted desktops. This PowerShell script installs a variety of software applications using the Windows Package Manager (winget). 
 
 ### **Description** ℹ
