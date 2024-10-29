@@ -11,7 +11,7 @@ The script installs the following software applications:
 - Gaming Platforms: Valve Steam, Epic Games Launcher
 - Music Streaming: Spotify
 - Graphic Design Software: KDE Krita, Figma
-- Version Control Software: Git, GitHub Desktop, Docker
+- Development Software: Git, GitHub Desktop, Docker, Postman, DBeaver
 
 .PARAMETER None
 This script does not accept any parameters.
@@ -82,10 +82,12 @@ Install-Software -SoftwareName "KDE Krita" -WingetId "KDE.Krita"
 Install-Software -SoftwareName "Figma" -WingetId "Figma.Figma"
 
 Write-Host "Installing Version Control Software..." -ForegroundColor Yellow
-# Version Control/Development Software
+# Development Software
 Install-Software -SoftwareName "Git" -WingetId "Git.Git"
 Install-Software -SoftwareName "GitHub Desktop" -WingetId "GitHub.GitHubDesktop"
 Install-Software -SoftwareName "Docker" -WingetId "Docker.DockerDesktop"
+Install-Software -SoftwareName "DBeaver" -WingetId "dbeaver.dbeaver"
+Install-Software -SoftwareName "Postman" -WingetId "Postman.Postman"
 
 Write-Host "Software installation completed." -ForegroundColor Green
 
